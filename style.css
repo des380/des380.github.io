@@ -1,1 +1,182 @@
+/* Google Font Link */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+/* Fontawesome CDN Link */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+:root {
+  --primary-color: #354a21;
+  --secondary-color: #2e8b57;
+  --highlight-color: #3cb371;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 10vmin;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(-70deg, #e3fdf5 0%, #eee6fa 100%);
+  flex-wrap:wrap;
+  padding: 30px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1rem;
+  background: var(--primary-color);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  z-index: 99;
+}
+
+header .navbar {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  display: flex;
+}
+
+.navbar .logo {
+  color: #fff;
+  font-size: 0.5rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.navbar .links {
+  height: 100%;
+  display: flex;
+}
+
+.navbar .links li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0 0.5rem;
+}
+
+.navbar .links li a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 0.25rem;
+  font-weight: 500;
+}
+
+.navbar .links li .arrow {
+  text-align: center;
+  color: #fff;
+  font-size: 0.25em;
+  padding: 0.25em;
+  transition: transform 0.3s;
+}
+
+.links li:hover .program-arrow {
+  transform: rotate(180deg);
+}
+
+.navbar .links .sub-menu {
+  position: absolute;
+  padding: 0 0.5rem;
+  top: 100%;
+  left: 0;
+  background: var(--primary-color);
+  line-height: 3;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  display: none;
+  z-index: 2;
+  color: #fff;
+  font-weight: 500;
+}
+
+.navbar .links .sub-menu li {
+  padding: 0 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar .links li:hover .program-sub-menu {
+  display: block;
+}
+
+.navbar .search-bar,
+.navbar .menu-bar {
+  position: relative;
+  width: 1.5em;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar .search-bar i,
+.navbar .menu-bar i {
+  color: #fff;
+  font-size: 0.25rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.navbar .menu-bar{
+  display: none;
+}
+
+.navbar .search-bar .input-box {
+  display: flex;
+  padding: 0.175rem;
+  background: var(--primary-color);
+  position: absolute;
+  top: 1rem;
+  right: -0.25rem;
+  border-radius: 6px;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.4s, transform 0.3s;
+}
+
+.navbar.showInput .search-bar .input-box {
+  z-index: 1;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.search-bar .input-box::before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  height: 0.25rem;
+  width: 0.25rem;
+  background: var(--primary-color);
+  right: 0.25rem;
+  top: -0.1rem;
+  transform: rotate(45deg);
+}
+
+.search-bar .input-box input {
+  height: 0.5rem;
+  width: 5rem;
+  outline: none;
+  border: none;
+  border-radius: inherit;
+  font-size: 0.25rem;
+  text-indent: 0.5em;
+}
 
