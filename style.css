@@ -180,3 +180,26 @@ header .navbar {
   text-indent: 0.5em;
 }
 
+.container{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.left{
+  flex-basis: 50%;
+  max-width: 400px;
+  padding-left: 5vh;
+}
+
+.left h1{
+  font-size: 50px;
+}
+
+.left p{
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
