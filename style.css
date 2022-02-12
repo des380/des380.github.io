@@ -190,12 +190,12 @@ header .navbar {
 
 .left{
   flex-basis: 50%;
-  max-width: 400px;
   padding-left: 5vh;
 }
 
 .left h1{
   font-size: 50px;
+  text-align: center;
 }
 
 .left p{
