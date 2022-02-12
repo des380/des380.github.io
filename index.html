@@ -16,9 +16,39 @@
 
 <body bgcolor="white" text="blue">
 
-<h1> My first page </h1>
+  <header>
+     <nav class="navbar">
+       <input type="checkbox" id="menu-box">
+       <label for="menu-box" class="menu-bar">
+         <i class="fas fa-bars"></i>
+       </label>
+       <a class="logo" href="Home.php">KidsFit</a>
+       <ul class="links">
+         <li><a href="Home.php">HOME</a></li>
+         <li>
+           <a href="#">PROGRAM</a>
+           <i class="fas fa-angle-down arrow program-arrow"></i>
 
-This is my first web page and I can say anything I want in here - I do that by putting text or images in the body section - where I'm typing right now :)
+           <ul class="program-sub-menu sub-menu">
+             <li><a href="#">Fitness</a></li>
+             <li><a href="#">Fitness</a></li>
+             <li><a href="#">Fitness</a></li>
+           </ul>
+         </li>
+         <li><a href="calender.php">CALENDER</a></li>
+         <li><a href="#">FORUM</a></li>
+         <li><a href="#">ABOUT</a></li>
+       </ul>
+
+       <label for="search-box" class="search-bar">
+         <i class="fas fa-search"></i>
+
+         <div class="input-box">
+           <input id="search-box" type="text" placeholder="Search..." />
+         </div>
+       </label>
+     </nav>
+  </header>
 
 </body>
 
