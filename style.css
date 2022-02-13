@@ -69,7 +69,7 @@ header .navbar {
 
 .left{
   flex-basis: 50%;
-  max-width: 400px;
+  max-width: 120vh;
   padding-left: 5vh;
 }
 
