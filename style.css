@@ -68,6 +68,7 @@ header .navbar {
 
 .left{
   flex-basis: 50%;
+  max-width: 400px
   padding-left: 5vh;
 }
 
@@ -79,11 +80,11 @@ header .navbar {
 .left p{
   font-size: 30px;
   margin: 0px 150px;
-  text-align: center;
 }
 
-.right{
+.right img{
   flex-basis: 50%;
-  padding-right: 5vh;
+  margin-left: 30vh;
+  margin-top: 15vh;
 }
 
