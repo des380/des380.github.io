@@ -67,6 +67,15 @@ header .navbar {
   align-items: center;
 }
 
+.container{
+  padding: 100px 0px;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
 .left{
   flex-basis: 50%;
   max-width: 120vh;
