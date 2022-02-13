@@ -87,3 +87,8 @@ header .navbar {
   text-align: center;
 }
 
+.right{
+  flex-basis: 50%;
+  padding-right: 5vh;
+}
+
