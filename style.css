@@ -82,7 +82,7 @@ header .navbar {
   margin: 0px 150px;
 }
 
-.right img{
+.right{
   flex-basis: 50%;
   margin-left: 30vh;
   margin-top: 15vh;
