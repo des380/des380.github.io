@@ -58,6 +58,10 @@ header .navbar {
   text-decoration: none;
 }
 
+#me{
+  padding: 10px 0px;
+}
+
 .container{
   width: 100%;
   display: flex;
