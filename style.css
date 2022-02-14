@@ -89,4 +89,16 @@ header .navbar {
   margin-top: -50vh;
   padding-left: 100vh;
 }
+  
+#about{
+  padding: 70px 307px;
+  background: rgba(0, 80, 50, 0.3);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 85% 85%, 0% 100%);
+}
 
+.about-row{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
