@@ -145,7 +145,6 @@ header .navbar {
 
 .skill-right-col{
   flex-basis: 50%;
-  margin-top: -50vh;
   padding-left: 100vh;
 }
 
