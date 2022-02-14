@@ -157,3 +157,27 @@ header .navbar {
   font-size: 20px;
   margin: 10px 0px;
 }
+
+.social-links{
+  margin: 14px;
+  font-size: 20px;
+}
+
+.social-links a:hover{
+  transform: scale(1.5);
+}
+
+.social-links a{
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+
+.social-links a i{
+  color: #444;
+}
+
+
+
+
+
