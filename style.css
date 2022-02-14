@@ -102,3 +102,18 @@ header .navbar {
   justify-content: space-around;
   align-items: center;
 }
+
+.about-col{
+  max-width: 400px;
+  margin-left: 30vh;
+}
+
+.about-col h2{
+  font-size: 50px;
+  width:40vh;
+}
+
+.about-col p{
+  font-size: 20px;
+  margin: 10px 0px;
+}
