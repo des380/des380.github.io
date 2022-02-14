@@ -91,7 +91,7 @@ header .navbar {
 }
   
 #about{
-  padding: 70px 507px;
+  padding: 130px 507px;
   background: rgba(0, 80, 50, 0.3);
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 85% 85%, 0% 100%);
 }
@@ -133,8 +133,28 @@ header .navbar {
   padding-left: 5vh;
 }
 
+.experience-left-col h2{
+  font-size: 50px;
+  width:40vh;
+}
+
+.experience-left-col p{
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
 .skill-right-col{
   flex-basis: 50%;
   margin-top: -50vh;
   padding-left: 100vh;
+}
+
+.skill-right-col h2{
+  font-size: 50px;
+  width:40vh;
+}
+
+.skill-right-col p{
+  font-size: 20px;
+  margin: 10px 0px;
 }
