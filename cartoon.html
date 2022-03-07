@@ -33,6 +33,38 @@
        </ul>
      </nav>
   </header>
+
+  <div class=“video-wrapper”>
+   <video id="myVideo">
+    <source src="" type="video/mp4"> 
+   </video>
+  </div>
+
+  <ul class="my-controls">
+   <li onclick="playVideo()">Play</li>
+   <li onclick="pauseVideo()">Pause</li>
+   <li onclick="muteVideo()">Mute</li>
+   <li onclick="unmuteVideo()">Unmute</li>
+  </ul>
+
+  <script>
+   var my = document.getElementById("myVideo");
+   function playVideo(){
+    my.play();
+   }
+   
+   function pauseVideo(){
+    my.pause();
+   }
+   
+   function muteVideo(){
+    my.muted=true;
+   }
+   
+   function unmuteVideo(){
+    my.unmuted=false;
+   }
+  </script>
   
   
   </body>
