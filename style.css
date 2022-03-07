@@ -58,6 +58,31 @@ header .navbar {
   text-decoration: none;
 }
 
+.navbar .links {
+  height: 100%;
+  display: flex;
+}
+
+.navbar .links li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0 0.5rem;
+}
+
+.navbar .links li a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 0.25rem;
+  font-weight: 500;
+}
+
 #me{
   padding: 140px 0px;
   width: 100%;
