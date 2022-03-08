@@ -257,7 +257,7 @@ header .navbar {
 .container2 .left4 {
   flex-basis: 50%;
   max-width: 400px;
-  padding-left: 5vh;
+  padding-left: 25vh;
 }
 
 .container2 .left4 h2 {
@@ -266,7 +266,7 @@ header .navbar {
 
 .container2 .left4 p{
   font-size: 20px;
-  margin: 10px 0px;
+  margin: 1px -16px;
 }
 
 .container2 .right4 img {
