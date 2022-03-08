@@ -253,3 +253,24 @@ header .navbar {
   margin-left: -30vh;
   margin-top: 10vh;
 }
+
+.container2 .left4 {
+  flex-basis: 50%;
+  max-width: 400px;
+  padding-left: 5vh;
+}
+
+.container2 .left4 h2 {
+  font-size: 50px;
+}
+
+.container2 .left4 p{
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+.container2 .right4 img {
+  flex-basis: 50%;
+  margin-left: 30vh;
+  margin-top: 10vh;
+}
