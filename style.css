@@ -274,3 +274,9 @@ header .navbar {
   margin-left: 30vh;
   margin-top: 10vh;
 }
+
+media (max-width: 600px) {
+  .container {
+    max-width: 50%;
+  }
+}
