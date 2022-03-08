@@ -250,6 +250,6 @@ header .navbar {
 
 .container2 .left3 img {
   flex-basis: 50%;
-  margin-left: 30vh;
+  margin-left: -30vh;
   margin-top: 10vh;
 }
