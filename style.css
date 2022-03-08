@@ -229,6 +229,6 @@ header .navbar {
 
 .right img{
   flex-basis: 50%;
-  margin-left: -40vh;
-  margin-top: 80vh;
+  margin-left: 80vh;
+  margin-top: 30vh;
 }
