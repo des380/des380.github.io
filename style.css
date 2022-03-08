@@ -212,22 +212,22 @@ header .navbar {
   margin-top: 20vh;
 }
 
-.left{
+.container2 .left{
   flex-basis: 50%;
   max-width: 400px;
   padding-left: 5vh;
 }
 
-.left h2{
+.container2 .left h2{
   font-size: 50px;
 }
 
-.left p{
+.container2 .left p{
   font-size: 20px;
   margin: 10px 0px;
 }
 
-.right img{
+.container2 .right img{
   flex-basis: 50%;
   margin-left: 80vh;
   margin-top: 30vh;
