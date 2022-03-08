@@ -61,6 +61,7 @@ header .navbar {
 .navbar .links {
   height: 100%;
   display: flex;
+  margin-right: 90vh;
 }
 
 .navbar .links li {
